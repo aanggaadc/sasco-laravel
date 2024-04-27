@@ -21,6 +21,8 @@ class Header extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.header');
+        $pathname = request()->path();
+
+        return view('components.header', compact('pathname'));
     }
 }
