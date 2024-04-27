@@ -12,25 +12,25 @@
     :class="{'opacity-100 visible': isOpen, 'opacity-0 invisible': !isOpen }"
   >
     <ul class="flex flex-col md:flex-row md:items-center">
-        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] text-[#383838]">
-          <a href="/">Home</a>
+        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] {{ $pathname === '/' ? 'bg-[#0153FA] text-[#fbfbfb]' : '' }}">
+            <a href="/">Home</a>
         </li>
 
-        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] text-[#383838]">
+        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] {{ $pathname === 'tentang' ? 'bg-[#0153FA] text-[#fbfbfb]' : '' }}">
             <a href="/tentang">Tentang</a>
-          </li>
+        </li>
 
-          <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] text-[#383838]">
+        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] {{ $pathname === 'layanan' ? 'bg-[#0153FA] text-[#fbfbfb]' : '' }}">
             <a href="/layanan">Layanan</a>
-          </li>
+        </li>
 
-          <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] text-[#383838]">
+        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] {{ $pathname === 'produk' ? 'bg-[#0153FA] text-[#fbfbfb]' : '' }}">
             <a href="/produk">Produk</a>
-          </li>
+        </li>
 
-          <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] text-[#383838]">
+        <li class="px-5 py-[11px] font-poppins bg-[#EBECEF] {{ $pathname === 'kontak' ? 'bg-[#0153FA] text-[#fbfbfb]' : '' }}">
             <a href="/kontak">Kontak</a>
-          </li>
+        </li>
     </ul>
   </nav>
 
