@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://sascopetroniaga.id" target="_blank">
-        <img src="/icons/sasco.png" alt="sasco petroniaga">
+        <img src="/public/icons/sasco.png" alt="sasco petroniaga">
     </a>
 </p>
 
