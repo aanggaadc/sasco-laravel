@@ -22,7 +22,14 @@ class Header extends Component
     public function render(): View|Closure|string
     {
         $pathname = request()->path();
+        $menus = [
+            '/' => 'Home',
+            'tentang' => 'Tentang',
+            'layanan' => 'Layanan',
+            'produk' => 'Produk',
+            'kontak' => 'Kontak',
+        ];
 
-        return view('components.header', compact('pathname'));
+        return view('components.header', compact('menus', 'pathname'));
     }
 }
