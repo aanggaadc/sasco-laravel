@@ -7,7 +7,7 @@
     switch ($variant) {
         case 'outline':
             $class .=
-                ' border border-solid border-[#FBFBFB] text-[#FBFBFB] bg-[none] hover:bg-primary hover:text-[#FBFBFB] hover:border-primary';
+                ' border border-solid border-primary text-primary bg-[none] hover:bg-primary hover:text-[#FBFBFB] hover:border-primary';
             break;
         default:
             $class .= ' bg-primary text-[#FBFBFB] hover:bg-[#4A86FF]';
