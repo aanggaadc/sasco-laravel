@@ -1,8 +1,7 @@
 @extends('layouts.default')
 
 @section('title', 'Tentang Kami - Sasco Petroniaga')
-@section('description',
-    'Pelajari lebih lanjut tentang Sasco Petroniaga, perusahaan energi terkemuka yang berkomitmen
+@section('description', 'Pelajari lebih lanjut tentang Sasco Petroniaga, perusahaan energi terkemuka yang berkomitmen
     untuk menyediakan layanan berkualitas dan terpercaya.')
 
 @section('content')

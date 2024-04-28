@@ -1,10 +1,5 @@
 @extends('layouts.default')
 
-@section('title', 'Sasco Petroniaga - Penyedia Bahan Bakar Industri Terpercaya')
-@section('description',
-    'Sejak 2016, Sasco Petroniaga menjadi penyedia terpercaya bahan bakar minyak industri
-    (HSD/solar) di Kepulauan Riau, menawarkan layanan tepat waktu dengan kualitas dan harga kompetitif.')
-
 @section('content')
     <section
         class="flex h-[calc(100vh_-_56px)] w-full flex-col justify-center bg-[url('/public/images/bg-hero-mobile.jpg')] bg-cover bg-center bg-no-repeat px-[35px] md:h-[calc(100vh_-_123px)] lg:bg-[url('/public/images/bg-hero-desktop.jpg')] lg:bg-[bottom_left] lg:px-[10%]">
