@@ -86,5 +86,5 @@
         </a>
     </section>
 
-    <x-contact-section />
+    @include('partials.contact-section')
 @endsection
