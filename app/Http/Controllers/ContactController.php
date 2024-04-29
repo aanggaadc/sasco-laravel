@@ -20,14 +20,14 @@ class ContactController extends Controller
                 "Jl. Pattimura RT.001 RW.002 Teluk Nipah, Telaga Punggur, Batam",
             ],
             [
-                "icon" => "/icons/ic-phone.png",
+                "icon" => "/icons/ic-phone-outline.png",
                 "title" => "Telp",
                 "description" =>
                 "0811-7708-820",
 
             ],
             [
-                "icon" => "/icons/ic-email.png",
+                "icon" => "/icons/ic-email-outline.png",
                 "title" => "email",
                 "description" =>
                 "spn@sascopetroniaga.id",
