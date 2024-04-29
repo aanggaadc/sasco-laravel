@@ -55,14 +55,14 @@
 
                 <ul class="flex flex-col gap-5">
                     <li class="flex items-center gap-[9px] text-base font-normal leading-6 lg:text-sm">
-                        <PhoneIcon />
+                        <img src="/icons/ic-phone.png" alt="Phone" class="w-[32px]" />
                         <a href="https://wa.me/08117708820" target="_blank">
                             0811 7708 820
                         </a>
                     </li>
 
                     <li class="flex items-center gap-[9px] text-base font-normal leading-6 lg:text-sm">
-                        <EmailIcon />
+                        <img src="/icons/ic-email.png" alt="Email" class="w-[32px]" />
                         spn@sascopetroniaga.id
                     </li>
                 </ul>

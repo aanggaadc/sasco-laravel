@@ -1,4 +1,4 @@
-@props(['variant' => 'default', 'extraClasses' => ''])
+@props(['variant' => 'default', 'extraClasses' => '', 'type' => 'button'])
 
 @php
     $class =
@@ -16,6 +16,6 @@
     $class .= ' ' . $extraClasses;
 @endphp
 
-<button {{ $attributes->merge(['class' => $class]) }}>
+<button {{ $attributes->merge(['class' => $class, 'type' => $type]) }}>
     {{ $slot }}
 </button>
