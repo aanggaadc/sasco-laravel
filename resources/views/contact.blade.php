@@ -119,12 +119,10 @@
                         @enderror
                     </div>
 
-                    <x-button type="submit" class="w-full max-w-[unset] py-[11px] !text-xs !font-medium lg:!text-sm">
+                    <x-button type="submit" class="!w-full !max-w-[unset] !py-[11px] !text-xs !font-medium lg:!text-sm">
                         KIRIM
                     </x-button>
                 </form>
-
-
             </section>
         </div>
     </div>

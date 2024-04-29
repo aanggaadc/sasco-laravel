@@ -54,7 +54,7 @@ class ContactController extends Controller
             'contact_number.regex' => 'Format nomor kontak tidak valid.',
             'message.required' => 'Pesan harus diisi.',
         ]);
-        Mail::to('aanggaadc@gmail.com')->send(new ContactUs($data));
+        Mail::to('spn@sascopetroniaga.id')->send(new ContactUs($data));
 
         return redirect()->back()->with('success', 'Thank you for your message. It has been sent.');
     }

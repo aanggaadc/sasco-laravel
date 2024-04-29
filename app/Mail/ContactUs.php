@@ -31,7 +31,7 @@ class ContactUs extends Mailable
     {
         return new Envelope(
             subject: 'You Have New Message',
-            from: new Address("test@gmail.com", 'test')
+            from: new Address($this->data['email'], $this->data['name']),
         );
     }
 
