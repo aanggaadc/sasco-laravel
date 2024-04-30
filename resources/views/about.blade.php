@@ -1,12 +1,13 @@
 @extends('layouts.default')
 
 @section('title', 'Tentang Kami - Sasco Petroniaga')
-@section('description', 'Pelajari lebih lanjut tentang Sasco Petroniaga, perusahaan energi terkemuka yang berkomitmen
+@section('description',
+    'Pelajari lebih lanjut tentang Sasco Petroniaga, perusahaan energi terkemuka yang berkomitmen
     untuk menyediakan layanan berkualitas dan terpercaya.')
 
 @section('content')
     <section
-        class="flex h-[calc(100vh_-_56px)] w-full flex-col justify-center bg-[url('/public/images/bg-hero-mobile.jpg')] bg-cover bg-center bg-no-repeat px-[35px] md:h-[calc(100vh_-_123px)] lg:bg-[url('/public/images/bg-hero-desktop.jpg')] lg:bg-[bottom_left] lg:px-[10%]">
+        class="flex h-[calc(100vh_-_56px)] w-full flex-col justify-center bg-[url('images/bg-hero-mobile.jpg')] bg-cover bg-center bg-no-repeat px-[35px] md:h-[calc(100vh_-_123px)] lg:bg-[url('/images/bg-hero-desktop.jpg')] lg:bg-[bottom_left] lg:px-[10%]">
         <h2
             class="mb-[23px] max-w-[270px] font-poppins text-[50px] font-extrabold leading-[75px] text-[#FBFBFB] lg:max-w-[unset] lg:text-[80px] lg:font-extrabold lg:leading-[120px]">
             DIESEL OIL SUPPLIER
@@ -29,7 +30,7 @@
     </section>
 
     <section
-        class="h-screen bg-[url('/public/images/tentang/bg-mobile.jpg')] bg-cover bg-center bg-no-repeat font-poppins md:bg-[url('/public/images/tentang/bg-desktop.jpg')] md:bg-[center_left] lg:h-[408px] 2xl:h-[500px]">
+        class="h-screen bg-[url('/images/tentang/bg-mobile.jpg')] bg-cover bg-center bg-no-repeat font-poppins md:bg-[url('/images/tentang/bg-desktop.jpg')] md:bg-[center_left] lg:h-[408px] 2xl:h-[500px]">
         <div
             class="flex h-full w-full -translate-y-20 flex-col items-center gap-[64px] lg:flex-row lg:justify-center lg:gap-[240px] 2xl:translate-y-[-150px]">
             @foreach ($items as $item)
