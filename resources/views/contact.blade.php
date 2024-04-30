@@ -40,7 +40,7 @@
     @endif
 
     <section
-        class="flex h-[calc(100vh_-_56px)] w-full flex-col justify-center bg-[url('/public/images/bg-hero-kontak-mobile.jpg')] bg-cover bg-center bg-no-repeat px-[35px] md:h-[calc(100vh_-_123px)] md:bg-[url('/public/images/bg-hero-kontak-desktop.jpg')] md:bg-[bottom_right] lg:px-[10%]">
+        class="flex h-[calc(100vh_-_56px)] w-full flex-col justify-center bg-[url('/images/bg-hero-kontak-mobile.jpg')] bg-cover bg-center bg-no-repeat px-[35px] md:h-[calc(100vh_-_123px)] md:bg-[url('/images/bg-hero-kontak-desktop.jpg')] md:bg-[bottom_right] lg:px-[10%]">
         <h2
             class="mb-[23px] max-w-[270px] font-poppins text-[50px] font-extrabold leading-[75px] text-[#FBFBFB] lg:max-w-[unset] lg:text-[80px] lg:font-extrabold lg:leading-[120px]">
             HUBUNGI KAMI
