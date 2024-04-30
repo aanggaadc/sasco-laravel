@@ -16,7 +16,7 @@
 
     <section class="flex flex-wrap justify-center gap-9 px-[35px] py-12 lg:px-0">
         @foreach ($items as $item)
-            <x-product.card :name="$item['name']" :description="$item['description']" :image="$item['image']" />
+            <x-product.card :name="$item->name" :description="$item->description" :image="$item->image" />
         @endforeach
     </section>
 
